@@ -1,0 +1,29 @@
+.text-orange {
+    color: orange;
+    font-weight: bold;
+  }
+  
+  .text-justify {
+    text-align: justify;
+  }
+  
+  .corner-frame {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+  }
+  
+  .corner-frame.top-right {
+    top: -13px;
+    right: -5px;
+    border-top: 7px solid orange;
+    border-right: 7px solid orange;
+  }
+  
+  .corner-frame.bottom-left {
+    bottom: -13px;
+    left: -5px;
+    border-left: 5px solid orange;
+    border-bottom: 5px solid orange;
+  }
+  

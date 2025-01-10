@@ -1,0 +1,51 @@
+/* SalesChart.css */
+
+/* General styling for the container */
+.SalesChart-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the heading */
+.SalesChart-container h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Responsive container for the chart */
+.SalesChart-chart {
+  width: 100%;
+  height: 500px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .SalesChart-container {
+    padding: 10px;
+  }
+
+  .SalesChart-container h3 {
+    font-size: 1.2rem;
+  }
+
+  .SalesChart-chart {
+    height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .SalesChart-container h3 {
+    font-size: 1rem;
+  }
+
+  .SalesChart-chart {
+    height: 300px;
+  }
+}

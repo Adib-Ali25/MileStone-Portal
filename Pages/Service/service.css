@@ -1,0 +1,51 @@
+#services {
+    background-color: #fdfeff; /* Light background for the section */
+  }
+  
+  #services h2 {
+    color: #333;
+    font-size: 2rem;
+  }
+  
+   .col-lg-6 p {
+    color: #0a0a0a;
+    font-weight: 600;
+    font-size: 20px;
+   } 
+
+   .orange-text {
+    color: rgb(255, 123, 0);
+   }
+  
+  .btn-warning {
+    background-color: #f76b1c;
+    border-color: #f76b1c;
+    color: white;
+  }
+  
+  .btn-warning:hover {
+    background-color: #dc6415;
+  }
+  
+  .btn-link {
+    color: #f76b1c;
+  }
+  
+  .btn-link:hover {
+    color: #dc6415;
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 576px) {
+    .col-lg-6 p {
+      font-size: 16px;
+    }
+  
+    .btn-warning {
+      width: 100%;
+    }
+  
+    .btn-link {
+      width: 100%;
+    }
+  }
