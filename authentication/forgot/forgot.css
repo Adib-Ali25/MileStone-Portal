@@ -1,0 +1,102 @@
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100px;
+  width: 100%;
+  margin-bottom: 5%;
+  overflow: hidden;
+  position: relative;
+  top: 20px;
+  z-index: 3;
+}
+
+.image img {
+  max-width: 15%;
+  max-height: 100%;
+}
+
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 1;
+  background-size: cover;
+}
+
+.background-video-content {
+  position: fixed;
+  z-index: 1;
+}
+
+video[poster] {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.forgot-card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px 20px;
+  width: 70vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  position: relative;
+  text-align: center;
+}
+
+.forgot-card h1 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.forgot-card p {
+  margin: 5px 0 20px;
+  color: #666;
+}
+
+.forgot-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.forgot-card input {
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 90%;
+}
+
+.forgot-card button {
+  padding: 15px 150px;
+  border: none;
+  border-radius: 30px;
+  margin: 40px 0px -10px 0px;
+  background-color: #f9aa43;
+  color: white;
+  font-size: 18px;
+}
+
+.forgot-card .signup {
+  margin-top: 50px;
+  color: #666;
+}
+
+.forgot-card .signup a {
+  color: #0c0d0e;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.forgot-card .signup a:hover {
+  text-decoration: underline;
+}

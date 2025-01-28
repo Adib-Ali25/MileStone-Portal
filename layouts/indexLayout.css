@@ -1,0 +1,28 @@
+/* ================= LAYOUT ================== */
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.layout-body {
+  display: flex;
+  flex:1;
+  /* overflow: hidden; */
+  margin-left: 250px; /* Sidebar Width */
+  margin-top: 90px;
+}
+
+/* Adjust Layout for Smaller Screens */
+@media (max-width: 768px) {
+  .layout-body {
+    margin-left: 0; /* No space when sidebar is collapsed */
+  }
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}

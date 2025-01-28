@@ -1,0 +1,42 @@
+/* Background Video */
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Centering Content */
+
+/* .auth-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+} */
+
+/* Login Card */
+.card {
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.9); /* Slight transparency */
+  /* backdrop-filter: blur(10px);   */
+  /* width:auto; */
+}
+.col{
+  padding-bottom: -10px;
+}
+
+/* Password Icon */
+.password-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
